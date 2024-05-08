@@ -1,0 +1,44 @@
+body {
+    background-image: url(mage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+div {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #A3E4D7;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #17202A;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2C3E50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #616A6B;
+}
